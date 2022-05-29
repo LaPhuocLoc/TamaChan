@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TamaChan</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
+  <!-- Libraries -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+</head>
+
+<body>
+  <div class="main">
+
+    <!-- Hero Section -->
+    <section class="hero-section">
+      <div class="hero-background">
+        <div class="swiper mySwiper2">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img src="./assets/img/hero-1.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/hero-2.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/hero-3.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/hero-4.jpg" />
+            </div>
+            <div class="swiper-slide">
+              <img src="./assets/img/hero-5.jpg" />
+            </div>
+          </div>
+          <div class="swiper-pagination"></div>
+
+        </div>
+      </div>
+      <div class="hero-content">
+        <div class="hero-content__wrapper">
+          <!-- Header -->
+          <div class="header">
+            <div class="nav">
+              <ul class="nav-list">
+                <li class="nav-item">
+                  <a href="" class="nav-link">ゼロ度について</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">コース・料金</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">
+                    <img src="./assets/img/circle-icon.png" alt="">
+                  </a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">ご予約と流れ</a>
+                </li>
+                <li class="nav-item">
+                  <a href="" class="nav-link">アクセス情報</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- Header End -->
+          <div class="bubble-container">
+            <div class="bubble-left"></div>
+            <div class="bubble-right">
+              <div class="bubble">
+                <div class="bubble-text">
+                  <p>いますぐ</p>
+                  <p>出かけよう</p>
+                  <p>ZERODOの旅へ。</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div thumbsSlider="" class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./assets/img/hero-1.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/hero-2.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/hero-3.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/hero-4.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./assets/img/hero-5.jpg" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section -->
+    <!-- About Section End -->
+
+    <!-- Card Section -->
+    <!-- Card Section End -->
+
+    <!-- News Section -->
+    <!-- News Section End -->
+
+    <!-- Contact Section -->
+    <!-- Contact Section End -->
+
+    <!-- Footer -->
+    <!-- Footer End -->
+  </div>
+  <!-- Libraries JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      delay: 100,
+      duration: 1200,
+      easing: 'ease-out',
+      once: true,
+    });
+    var swiper = new Swiper(".mySwiper", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      freeMode: true,
+      watchSlidesProgress: true,
+    });
+    var swiper2 = new Swiper(".mySwiper2", {
+      spaceBetween: 10,
+      thumbs: {
+        swiper: swiper,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+  <!-- End -->
+</body>
+
+</html>
