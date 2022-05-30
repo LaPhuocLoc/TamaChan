@@ -1,14 +1,68 @@
-@media (max-width: 1199.98px) {
+@media only screen and (max-width: 1399.98px) {
+    .header .nav {
+        height: 72px;
+        line-height: 72px;
+    }
+    .header .nav-list {
+        padding: 0 2rem;
+    }
+    .header .nav-link {
+        font-size: 1.5rem;
+    }
+    .header .nav-link img {
+        width: 120px;
+        height: 120px;
+    }
+}
+@media only screen and (max-width: 1199.98px) {
+    .bubble {
+        width: 350px;
+        height: 350px;
+    }
+    .bubble-text {
+        top: -1rem;
+        left: 0;
+    }
+    .bubble-text p {
+        font-size: 2rem; 
+        line-height: 4rem;
+    }
 }
 
-@media (max-width: 991.98px) {
+@media only screen and (max-width: 991.98px) {
+    .header .nav {
+        height: 64px;
+        line-height: 64px;
+    }
+    .header .nav-list {
+        padding: 0 .5rem;
+    }
+    .header .nav-link {
+        font-size: 1.125rem;
+    }
+    .header .nav-link img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .bubble {
+        width: 250px;
+        height: 250px;
+    }
+    .bubble-text {
+        top: 0;
+        left: 0;
+        padding-left: 4rem;
+    }
+    .bubble-text p {
+        font-size: 1.375rem; 
+        line-height: 2.75rem;
+    }
 }
 
-@media (max-width: 767.98px) {
+@media only screen and (max-width: 767.98px) {
+
 }
 
-@media (max-width: 575.98px) {
-}
-
-@media (min-width: 992px) {
+@media only screen and (max-width: 575.98px) {
 }

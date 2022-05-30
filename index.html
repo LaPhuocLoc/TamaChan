@@ -7,15 +7,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>TamaChan</title>
 
-  <!-- CSS -->
-  <link rel="stylesheet" href="./assets/css/base.css">
-  <link rel="stylesheet" href="./assets/css/main.css">
-  <link rel="stylesheet" href="./assets/css/responsive.css">
   <!-- Libraries -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
   <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- CSS -->
+  <link rel="stylesheet" href="./assets/css/base.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
+  <link rel="stylesheet" href="./assets/css/responsive.css">
 
 </head>
 
@@ -24,70 +24,9 @@
 
     <!-- Hero Section -->
     <section class="hero-section">
-      <div class="hero-background">
-        <div class="swiper mySwiper2">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide">
-              <img src="./assets/img/hero-1.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/img/hero-2.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/img/hero-3.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/img/hero-4.jpg" />
-            </div>
-            <div class="swiper-slide">
-              <img src="./assets/img/hero-5.jpg" />
-            </div>
-          </div>
-          <div class="swiper-pagination"></div>
-
-        </div>
-      </div>
-      <div class="hero-content">
-        <div class="hero-content__wrapper">
-          <!-- Header -->
-          <div class="header">
-            <div class="nav">
-              <ul class="nav-list">
-                <li class="nav-item">
-                  <a href="" class="nav-link">ゼロ度について</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">コース・料金</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">
-                    <img src="./assets/img/circle-icon.png" alt="">
-                  </a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">ご予約と流れ</a>
-                </li>
-                <li class="nav-item">
-                  <a href="" class="nav-link">アクセス情報</a>
-                </li>
-              </ul>
-            </div>
-          </div>
-
-          <!-- Header End -->
-          <div class="bubble-container">
-            <div class="bubble-left"></div>
-            <div class="bubble-right">
-              <div class="bubble">
-                <div class="bubble-text">
-                  <p>いますぐ</p>
-                  <p>出かけよう</p>
-                  <p>ZERODOの旅へ。</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div thumbsSlider="" class="swiper mySwiper">
+      <div class="hero-wrapper">
+        <div class="hero-background">
+          <div class="swiper mySwiper2">
             <div class="swiper-wrapper">
               <div class="swiper-slide">
                 <img src="./assets/img/hero-1.jpg" />
@@ -105,13 +44,117 @@
                 <img src="./assets/img/hero-5.jpg" />
               </div>
             </div>
+            <div class="swiper-pagination"></div>
+
+          </div>
+        </div>
+        <div class="hero-content">
+          <div class="hero-content__wrapper">
+            <!-- Header -->
+            <div class="header">
+              <div class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item">
+                    <a href="" class="nav-link">ゼロ度について</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">コース・料金</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">
+                      <img src="./assets/img/circle-icon.png" alt="">
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">ご予約と流れ</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="nav-link">アクセス情報</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <!-- Header End -->
+            <div class="bubble-container">
+              <div class="bubble-left"></div>
+              <div class="bubble-right">
+                <div class="bubble">
+                  <div class="bubble-text">
+                    <p>いますぐ</p>
+                    <p>出かけよう</p>
+                    <p>ZERODOの旅へ。</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div thumbsSlider="" class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="./assets/img/hero-1.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/hero-2.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/hero-3.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/hero-4.jpg" />
+                </div>
+                <div class="swiper-slide">
+                  <img src="./assets/img/hero-5.jpg" />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </section>
     <!-- Hero Section End -->
 
+    <!-- Booking Section Start -->
+    <section class="booking-section">
+      <div class="container">
+        <div class="booking">
+          <div class="booking-btn-wrapper">
+            <button class="white-btn booking-btn">ご宿泊予約</button>
+          </div>
+          <div class="booking-info">
+            <div class="booking-info__item">
+              <h5 class="title">チェックイン日</h5>
+              <div class="info">
+                <div class="white-block white-block--with-hasher"></div>
+                <div class="white-block"></div>
+              </div>
+            </div>
+            <div class="booking-info__item">
+              <h5 class="title">宿泊日数</h5>
+              <div class="info">
+                <div class="white-block"></div>
+                <span>泊</span>
+              </div>
+            </div>
+            <div class="booking-info__item">
+              <h5 class="title">部屋数</h5>
+              <div class="info">
+                <div class="white-block"></div>
+                <span>屋</span>
+              </div>
+            </div>
+          </div>
+          <div class="booking-search-wrapper">
+            <button class="white-btn search-btn">検索</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Booking Section End -->
+
     <!-- About Section -->
+    <section class="about-section">
+
+    </section>
     <!-- About Section End -->
 
     <!-- Card Section -->
@@ -153,6 +196,10 @@
       pagination: {
         el: '.swiper-pagination',
         type: 'bullets',
+      },
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true
       },
     });
   </script>
