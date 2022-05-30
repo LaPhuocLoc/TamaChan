@@ -164,11 +164,7 @@ select:focus {
   color: var(--primary-color);
 }
 
-.white-btn:hover {
-  /* background-color: transparent;
-  color: var(--primary-color);
-  border-color: var(--primary-color); */
-}
+
 
 .more-btn {
   position: relative;
